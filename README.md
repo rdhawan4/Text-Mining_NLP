@@ -12,6 +12,8 @@ Our goal is to accurately determine whether the customer cancels the subscriptio
 - Feature Selection using **Filter** and **Wrapper** methods
 - Model Development & Evaluation : **Decision Tree, Random Forest & Gradient Boosting**
 
+<img src="https://user-images.githubusercontent.com/112804900/203015469-29d9e406-4c3c-4b1c-bf7c-93a1a5e3301b.png" width=900>
+
 ## Improvement in Classification with text data
 
 <img src="https://user-images.githubusercontent.com/112804900/202992612-5e8fd4e4-0e6c-4a99-8d38-5eb0b0f39c7e.png" width=500 >
@@ -19,3 +21,4 @@ Our goal is to accurately determine whether the customer cancels the subscriptio
 ## Note <br>
 Main Testcode : TextMining.ipynb <br>
 Datasets available in Data folder <br>
+

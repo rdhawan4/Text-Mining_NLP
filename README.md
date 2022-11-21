@@ -17,5 +17,5 @@ Our goal is to accurately determine whether the customer cancels the subscriptio
 <img src="https://user-images.githubusercontent.com/112804900/202992612-5e8fd4e4-0e6c-4a99-8d38-5eb0b0f39c7e.png" width=500 >
 
 ### Note <br>
-Main Testcode : HomesiteQuoteConversion.ipynb <br>
+Main Testcode : TextMining.ipynb <br>
 Datasets available in Data folder <br>

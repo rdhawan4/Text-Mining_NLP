@@ -6,7 +6,7 @@ Natural Language Processing : Incorporating textual semi-structured data into cl
 
 ## Implementation
 Our goal is to accurately determine whether the customer cancels the subscription or not. 
-- We will extract useful information from the "comments.csv" text data which stores the complaint information from these customers. We need to transform the semi-structured data into a usable matrix in order to incorporate with the customers personal data.
+- We will extract useful information from the "comments.csv" text data which contains information about the recent interaction of the customer with customer service team. We need to transform the semi-structured data into a usable matrix in order to incorporate with the customers personal data.
 - Secondly, we have to preprocess the Customer data which may contain categoriacl data points as well.
 - Combine transformed text data and numerical personal data by matching the Customer ID on both datatsets.
 - Feature Selection using **Filter** and **Wrapper** methods

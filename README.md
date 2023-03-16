@@ -18,6 +18,28 @@ Our goal is to accurately determine whether the customer cancels the subscriptio
 
 <img src="https://user-images.githubusercontent.com/112804900/202992612-5e8fd4e4-0e6c-4a99-8d38-5eb0b0f39c7e.png" width=500 >
 
+### Model Performance
+
+| Model Name | Feature Selection Method |No. of k Features| Accuracy Score |
+| :---: | :---: | :---: |:---: |
+| RandomForestClassifier | None |None | 0.87 |
+| GradientBoostingClassifier |  None |None | 0.87 |
+| DecisionTreeClassifier |  None |None | 0.87 |
+| | | | |
+| RandomForestClassifier |  Kbest | 25| 0.80 |
+| GradientBoostingClassifier | Kbest | 25 | 0.82|
+| DecisionTreeClassifier |Kbest | 25 | 0.82|
+| RandomForestClassifier |Kbest | 50 | 0.86|
+| GradientBoostingClassifier |Kbest | 50 | 0.87|
+| DecisionTreeClassifier |Kbest | 50 | 0.87|
+| | | | |
+| RandomForestClassifier |SelectFromModel | 10 | 0.88|
+| GradientBoostingClassifier |SelectFromModel | 10 | 0.88|
+| DecisionTreeClassifier |SelectFromModel | 10 | 0.84|
+| RandomForestClassifier |SelectFromModel | 25 | 0.92|
+| GradientBoostingClassifier |SelectFromModel | 25 | 0.89|
+| DecisionTreeClassifier |SelectFromModel | 25 | 0.88|
+
 ## Note <br>
 Main Testcode : TextMining.ipynb <br>
 Datasets available in Data folder <br>

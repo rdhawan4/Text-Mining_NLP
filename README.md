@@ -1,4 +1,4 @@
-# Text-Mining_NLP
+# Text Mining using Natural Language Processing
 Natural Language Processing : Incorporating textual semi-structured data into classification model using Natural Language Toolkit library (NLTK)
 <br>
 
